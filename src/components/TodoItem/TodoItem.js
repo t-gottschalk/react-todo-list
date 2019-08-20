@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './TodoItem.css';
 // import PropTypes from 'prop-types';
 
 export class TodoItem extends Component {
@@ -14,12 +15,22 @@ export class TodoItem extends Component {
     render() {
         const { id, title, completed } = this.props.todo;
         return (
-            <div style={ this.getStyle() }>
+            <div className='todo-item' style={ this.getStyle() }>
                 <p>
-                    <input type="checkbox" onChange={ this.props.handleComplete.bind(this, id) } checked={ completed ? 'checked': '' }/>{' '}
-                    {title}
-                    <button onClick={this.props.handleDelete.bind(this, id)} style={{ float: 'right' }}>
-                        <i className="fa fa-trash" aria-hidden="true"></i>
+                    <input 
+                        type="checkbox" 
+                        onChange={ this.props.handleComplete.bind(this, id) } 
+                        checked={ completed ? 'checked': '' }
+                    />
+                    {' '} {title}
+                    <button 
+                        onClick={this.props.handleDelete.bind(this, id)} 
+                        style={{ float: 'right' }}>
+                        <i 
+                            className="fa fa-trash" 
+                            aria-hidden="true"
+                        >
+                        </i>
                     </button>
                 </p>
             </div>
@@ -33,6 +44,5 @@ export class TodoItem extends Component {
 //     handleComplete: PropTypes.func.isRequired,
 //     handleDeleteTodo: PropTypes.func.isRequired
 // }
-
 
 export default TodoItem;

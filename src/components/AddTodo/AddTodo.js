@@ -9,7 +9,7 @@ export class AddTodo extends Component {
             title: ''
         }
     }
-    
+
     onSubmit = (e) => {
         e.preventDefault();
         this.props.handleAdd(this.state.title);
@@ -29,7 +29,7 @@ export class AddTodo extends Component {
                     value={this.state.title}
                     onChange={this.onChange}
                 />
-                <button type="submit" className="btn">
+                <button type="submit">
                     Submit
                 </button>
             </form>

@@ -1,11 +1,5 @@
 .header-style {
-	background: "#333";
-  color: '#fff';
-  textAlign: 'center';
-  padding: '10px';
+	padding-top: 20px;
+  text-align: center;
 }
 
-.link-style {
-	color: grey;
-  text-decoration: none;
-}
