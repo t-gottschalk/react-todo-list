@@ -4,7 +4,7 @@ const About = () => {
     return (
         <div>
           <h1>About</h1>
-          <p>This is the TodoList app v1.0.0</p>
+          <p>This is a fun React Todo List App!</p>
         </div>
     );
 }
