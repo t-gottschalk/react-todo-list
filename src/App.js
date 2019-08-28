@@ -1,10 +1,23 @@
 import React, { Component } from 'react';
+// import Particles from 'react-particles-js';
 import axios from 'axios';
 import uuid from 'uuid';
 import Header from './components/Header/Header';
 import AddTodo from './components/AddTodo/AddTodo';
 import Todos from './components/Todos/Todos';
 import './App.css';
+
+// const particlesOptions = {
+//   particles: {
+//     number: {
+//       value: 100,
+//       density: {
+//         enable: true,
+//         value_area: 800
+//       }
+//     }
+//   }
+// }
 
 class App extends Component {
   constructor() {
@@ -46,14 +59,14 @@ class App extends Component {
   render() {
     return (
       <div className="App container">
-          <Header />
-          <br />
-          <AddTodo handleAdd={this.handleAdd} />
-          <Todos 
-            todos={this.state.todos} 
-            handleComplete = {this.handleComplete} 
-            handleDelete={this.handleDelete}
-          />
+        <Header />
+        <br />
+        <AddTodo handleAdd={this.handleAdd} />
+        <Todos 
+          todos={this.state.todos} 
+          handleComplete = {this.handleComplete} 
+          handleDelete={this.handleDelete}
+        />
       </div>
     );
   }

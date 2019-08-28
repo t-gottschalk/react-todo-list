@@ -6,7 +6,7 @@ import './Todos.css';
 class Todos extends Component {
   render() {
     return this.props.todos.map(todo => (
-        <TodoItem 
+        <TodoItem className='todos'
         	key={todo.id} 
         	todo = {todo} 
         	handleComplete={this.props.handleComplete} 

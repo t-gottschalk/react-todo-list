@@ -1,8 +1,27 @@
-/*
-
 .add-todo {
 	display: 'flex';
+	padding: 5px;
+	color: white;
 }
 
-Note, not currently used but keeping Class for future styling.
-*/
+input[type=text], select {
+	color: white;
+	font-size: 12px;
+	border: 1px solid white;
+}
+
+input[type=text] {
+	background-color: white;
+	color: white;
+	font-size: 1.4rem;
+	border: 1px solid white;
+}
+
+button {
+	background-color: #E53162;
+	border: #E53162;
+}
+
+input:active {
+	border: #E53162;
+}
