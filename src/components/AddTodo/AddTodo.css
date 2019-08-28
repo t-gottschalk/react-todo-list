@@ -5,14 +5,14 @@
 }
 
 input[type=text], select {
-	color: white;
+	color: black;
 	font-size: 12px;
 	border: 1px solid white;
 }
 
 input[type=text] {
 	background-color: white;
-	color: white;
+	color: black;
 	font-size: 1.4rem;
 	border: 1px solid white;
 }
