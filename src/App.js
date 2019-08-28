@@ -7,18 +7,6 @@ import AddTodo from './components/AddTodo/AddTodo';
 import Todos from './components/Todos/Todos';
 import './App.css';
 
-// const particlesOptions = {
-//   particles: {
-//     number: {
-//       value: 100,
-//       density: {
-//         enable: true,
-//         value_area: 800
-//       }
-//     }
-//   }
-// }
-
 class App extends Component {
   constructor() {
     super();
