@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-todo-list/static/css/main.e4cd3812.chunk.css",
+    "main.css": "/react-todo-list/static/css/main.d2f4e1e8.chunk.css",
     "main.js": "/react-todo-list/static/js/main.822e3708.chunk.js",
     "main.js.map": "/react-todo-list/static/js/main.822e3708.chunk.js.map",
     "runtime~main.js": "/react-todo-list/static/js/runtime~main.d5ecde86.js",
@@ -8,9 +8,9 @@
     "static/js/2.0d3b3bf9.chunk.js": "/react-todo-list/static/js/2.0d3b3bf9.chunk.js",
     "static/js/2.0d3b3bf9.chunk.js.map": "/react-todo-list/static/js/2.0d3b3bf9.chunk.js.map",
     "index.html": "/react-todo-list/index.html",
-    "precache-manifest.8f777fc6ae7df17b8bcfdeb669533645.js": "/react-todo-list/precache-manifest.8f777fc6ae7df17b8bcfdeb669533645.js",
+    "precache-manifest.60f572b1036ab9b059b1ef7d65a63d6b.js": "/react-todo-list/precache-manifest.60f572b1036ab9b059b1ef7d65a63d6b.js",
     "service-worker.js": "/react-todo-list/service-worker.js",
-    "static/css/main.e4cd3812.chunk.css.map": "/react-todo-list/static/css/main.e4cd3812.chunk.css.map",
+    "static/css/main.d2f4e1e8.chunk.css.map": "/react-todo-list/static/css/main.d2f4e1e8.chunk.css.map",
     "static/media/index.css": "/react-todo-list/static/media/wood-background.90a1dfc1.jpg"
   }
 }
